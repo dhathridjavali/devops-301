@@ -1,0 +1,1000 @@
+  107  cd 
+  108  cd /home/labuser
+  109  ls
+  110  nohup java -jar /root/jenkins.war -httpPort=9090 > output.txt &
+  111  ls
+  112  cd devops-301
+  113  ls
+  114  cd
+  115  cd home/
+  116  cd /home
+  117  sudo su
+  118  ls
+  119  cd ../ ../
+  120  cd ..
+  121  ls
+  122  ls -a
+  123  cd root
+  124  ls
+  125  sudo su
+  126  java -version
+  127  mkdir 02-Jenkins
+  128  ls
+  129  nohup java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  130  cat /root/.jenkins/secrets/initialAdmicat /root/.jenkins/secrets/initialAdminPassword
+  131  nohup java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  132  rm output.txt
+  133  ls
+  134  nohup java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  135  cat /root/.jenkins/secrets/initialAdminPassword
+  136  apt-get uninstall jenkins
+  137  rm jenkins
+  138  nohup java -jar /root/jenkins.war --httpPort=9091 > output.txt &
+  139  cat /root/.jenkins/secrets/initialAdminPassword
+  140  apt-get remove jenkins
+  141  ls
+  142  cd 02-Jenkins
+  143  ls
+  144  mkdir 02-Jenkins
+  145  cd 02-Jenkins
+  146  ls
+  147  cd ..
+  148  apt-get install default-jdk -y
+  149  java -version
+  150  wget https://get.jenkins.io/war-stable/2.249.2/jenkins.war
+  151  mv jenkins.war /root/
+  152  nohup java -jar /root/jenkins.war -httpPort=9090 > output.txt &
+  153  wget https://get.jenkins.io/war-stable/2.249.2/jenkins.war
+  154  mv jenkins.war /root/
+  155  nohup java -jar /root/jenkins.war -httpPort=9090 > output.txt &
+  156  ls
+  157  cd 02-Jenkins
+  158  ls
+  159  cd ..
+  160  sudo apt-get remove jenkins
+  161  history
+  162  sudo apt-get remove --auto-remove jenkins
+  163  ls
+  164  rm 02-Jenkins
+  165  sudo remove 02-Jenkins
+  166  rm -R 02-Jenkkins
+  167  rm -R 02-Jenkins
+  168  ls
+  169  mkdir 02-Jenkins
+  170  wget https://get.jenkins.io/war-stable/2.249.2/jenkins.war
+  171  mv jenkins.war /root/
+  172  nohup java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  173  cat /root/.jenkins/secrets/initialAdminPassword
+  174  cat /etc/os-release
+  175  cd
+  176  ls -a
+  177  cd .jenkins/
+  178  ls
+  179  cd
+  180  cd .jenkins/
+  181  ls
+  182  cd workspace
+  183  ls
+  184  cd Test-Job-1
+  185  ls
+  186  cd ..
+  187  ls
+  188  cd Test-Job-03
+  189  ls
+  190  cd Hello.txt
+  191  vi Hello.txt
+  192  cd ..
+  193  sudo apt-get remove jenkins
+  194  sudo apt-get remove --auto-remove jenkins
+  195  sudo systemctl status jenkins
+  196  sudo su
+  197  wget https://archive.apache.org/dist/tomcat-8/v8.5.56/bin/apac
+  198  wget https://archive.apache.org/dist/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56.zip
+  199  wget https://archive.apache.org/dist/tomcat/tomcat-8/v8.5.56/bin/apache-tomcat-8.5.56.zip
+  200  apt-get install unzip -y
+  201  unzip apache-tomcat-8.5.56.zip
+  202  cp -rf apache-tomcat-8.5.56 /opt/tomcat
+  203  cd /opt/tomcat
+  204  chmod +x bin/catalina.sh start
+  205  chmod +x bin/catalina.sh 
+  206  ./bincatalina.sh start
+  207  chmod +x bin/catalina.sh ./bin/catalina.sh start
+  208  ps -ef | grep -i tomcat
+  209  netstat -tulnp | grep -i 8080
+  210  ls
+  211  sudo su -
+  212  ls
+  213  ls
+  214  cd /opt/tomcat
+  215  ls
+  216  ./bin/catalina.sh start
+  217  cd ..
+  218  sudo su
+  219  ls
+  220  sudo su -
+  221  ls
+  222  mkdir practice
+  223  ls
+  224  cd practice
+  225  git clone https://github.com/dhathridjavali/SpringPetClinic.git
+  226  ls
+  227  cd SpringPetClinic
+  228  ls
+  229  mvn package
+  230  apt install maven
+  231  mvn package
+  232  ls
+  233  cd target
+  234  ls
+  235  cp -rf spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar /opt/tomcat/webapps
+  236  cd ../ ..
+  237  ls
+  238  cd ../
+  239  ls
+  240  cd /opt/tomcat/webapps
+  241  ls
+  242  ll
+  243  cd ../
+  244  cd ../ ..
+  245  cd ../
+  246  ls
+  247  sudo su
+  248  mkdir file1
+  249  ls
+  250  sudo su
+  251  ls
+  252  cd practice
+  253  ls
+  254  git clone https://github.com/amitvashisttech/devops301-mindtree-09-Jan-2021.git
+  255  ls
+  256  cd devops301-mindtree-09-Jan-2021
+  257  ls
+  258  cd 01-Jenkins
+  259  ls
+  260  cd petclinic-code
+  261  ls
+  262  mvn package
+  263  ls
+  264  cd target
+  265  ls
+  266  ll
+  267  cp -rf spetclinic.war /opt/tomcat/webapps
+  268  cp -rf petclinic.war /opt/tomcat/webapps
+  269  cd ../ ../ ../
+  270  cd /root
+  271  ls
+  272  cd /opt/tomcat/webapps
+  273  ls
+  274  ll
+  275  rm spring-petclinic-2.1.0.BUILD-SNAPSHOT.jar
+  276  ll
+  277  history
+  278  sudo su -
+  279  cd home
+  280  ls
+  281  sudo su -
+  282  Last login: Wed Jan 13 10:22:17 2021 from 3.238.46.111
+  283  labuser@labuser:~$ sudo su -
+  284  root@labuser:~# ls
+  285  apache-tomcat-8.5.56  apache-tomcat-8.5.56.zip  jenkins.war  jenkins.war.bak  jenkins.war.tmp  practice
+  286  root@labuser:~# ll
+  287  total 208064
+  288  drwx------ 10 root root     4096 Jan 13 10:31 ./
+  289  drwxr-xr-x 24 root root     4096 Jan 13 13:42 ../
+  290  drwx------  3 root root     4096 Jan  7 15:29 .ansible/
+  291  drwxr-xr-x  9 root root     4096 Jun  3  2020 apache-tomcat-8.5.56/
+  292  -rw-r--r--  1 root root 10909579 Jun  3  2020 apache-tomcat-8.5.56.zip
+  293  -rw-------  1 root root     5355 Jan 13 12:09 .bash_history
+  294  -rw-r--r--  1 root root     3106 Oct 22  2015 .bashrc
+  295  drwxr-xr-x  3 root root     4096 Jan 12 13:22 .cache/
+  296  -rw-r--r--  1 root root       74 Jan 12 10:48 .gitconfig
+  297  ls
+  298  ll
+  299  ls
+  300  sudo su -
+  301  ls
+  302  cd practice
+  303  ls
+  304  cd devops301-mindtree-09-Jan-2021
+  305  ls
+  306  cd 01-Jenkins/
+  307  ls
+  308  cd petclinic-code/
+  309  ls
+  310  mvn clean
+  311  cd ../ ../
+  312  git status
+  313  git config --list
+  314  cd root
+  315  cd /root
+  316  ls
+  317  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt & 
+  318  cat /root/.jenkins/secrets/initialAdminPassword
+  319  cd /root/.jenkins/workspace/PetClinic-FreeStyle
+  320  ls
+  321  mvn clean
+  322  cd 01-Jenkins/petclinic-code/
+  323  cd /root/.jenkins/workspace/PetClinic-FreeStyle
+  324  mvn clean -f 01-Jenkins/petclinic-code/pom.xml
+  325  cd
+  326  ls -ltr /root/.jenkins/workspace/PetClinic-FreeStyle/01-Jenkins/petclinic-code/target/petclinic.war
+  327  ls
+  328  cd /home/labuser
+  329  ls
+  330  cd devops-301
+  331  ls
+  332  sudo su -
+  333  ls
+  334  sudo su -
+  335  ls
+  336  sudo su
+  337  ls
+  338  apt-get update
+  339  java -version
+  340  ls
+  341  cd /opt/tomcat
+  342  ls
+  343  cd /bin
+  344  ls
+  345  cd /opt/tomcat/bin
+  346  ls
+  347  ./bin/catalina.sh start
+  348  cd ..
+  349  ./bin/catalina.sh start
+  350  netstat -tulnp
+  351  ip addr
+  352  df -h
+  353  cd /opt/tomcat/webapps
+  354  ls
+  355  ./bin/catalina.sh stop
+  356  cd ../
+  357  ./bin/catalina.sh stop
+  358  rm -rf webapps/petclinic*
+  359  ls
+  360  cd /webapps
+  361  cd ..
+  362  ls
+  363  cd root/
+  364  ls
+  365  cd /home/
+  366  ls
+  367  sudo su -
+  368  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  369  cd /opt/tomcat
+  370  ls
+  371  ./bin/catalina.sh start
+  372  ./bin/catalina.sh stop
+  373  cd conf
+  374  ls
+  375  cd tomcat-users.xml
+  376  vi tomcat-users.xml
+  377  ls
+  378  vim tomcat-users.xml 
+  379  ls
+  380  vim context.xml
+  381  ./bin/catalina.sh start
+  382  cd ../
+  383  ./bin/catalina.sh start
+  384  vim conf
+  385  cp -rf conf/context.xml /root/
+  386  ls
+  387  > conf/context.xml
+  388  vim context.xml
+  389  ./bin/catalina.sh start
+  390  ./bin/catalina.sh stop
+  391  ./bin/catalina.sh start
+  392  ./bin/catalina.sh stop
+  393  netstat -tulnp | grep -i 8080
+  394  ps -ef | grep -i tomcat
+  395  netstat -tulnp | grep -i 8080
+  396  ./bin/catalina.sh start
+  397  netstat -tulnp | grep -i 8080
+  398  ./bin/catalina.sh stop
+  399  ./bin/catalina.sh start
+  400  ./bin/catalina.sh stop
+  401  mv context.xml webapps/manager/META-INF/context.xml
+  402  cd /webapps/manager/META-INF/context.xml
+  403  ls
+  404  cd /opt/tomcat/webapps
+  405  ls
+  406  cd ../
+  407  ls
+  408  cd /root/
+  409  ls
+  410  sudo su -
+  411  cd practice
+  412  ls
+  413  cd ..
+  414  cd /opt/tomcat
+  415  cp -rf context.xml webapps/manager/META-INF
+  416  cd ..
+  417  ls
+  418  sudo su -
+  419  ls
+  420  cp -rf context.xml webapps/manager/META-INF
+  421  cp -rf context.xml opt/tomcat/webapps/manager/META-INF
+  422  cd /opt/tomcat
+  423  ls
+  424  cd conf
+  425  ls
+  426  cd ..
+  427  cp -rf conf/context.xml webapps/manager/META-INF/context.xml
+  428  cd webapps/manager/META-INF
+  429  ls
+  430  cd ..
+  431  cd ../ ../
+  432  ./bin/catalina.sh start
+  433  history
+  434  history > history
+  435  ls
+  436  ./bin/catalina.sh stop
+  437  ./bin/catalina.sh start
+  438  cd /conf
+  439  cd /opt/tomcat/conf
+  440  ls
+  441  vim tomcat-users.xml
+  442  cd ..
+  443  ./bin/catalina.sh stop
+  444  ./bin/catalina.sh start
+  445  /opt/tomcat/webapps
+  446  ls
+  447  cd opt/tomcat/webapps/
+  448  cd webapps
+  449  ls
+  450  cd manager
+  451  ls
+  452  cd META-INF
+  453  ls
+  454  vim context.xml
+  455  ls context.xml
+  456  vim context.xml
+  457  cd ../ ../ ../
+  458  cd ..
+  459  ./bin/catalina.sh stop
+  460  ./bin/catalina.sh start
+  461  ps -ef | grep -i tomcat
+  462  netstat -tulnp | grep -i 8080
+  463  /opt/tomcat
+  464  cd /opt/tomcat
+  465  ./bin/catalina.sh start
+  466  ls
+  467  cd conf
+  468  ls
+  469  vim server.xml
+  470  cd /opt/tomcat/conf/
+  471  ls
+  472  vim server.xml
+  473  cd ..
+  474  ./bin/catalina.sh start
+  475  vim server.xml
+  476  ls
+  477  cd conf
+  478  vim server.xml
+  479  ./bin/catalina.sh stop
+  480  cd
+  481  cd /opt/tomcat
+  482  ./bin/catalina.sh stop
+  483  ./bin/catalina.sh start
+  484  ./bin/catalina.sh stop
+  485  ps -ef | grep -i tomcat
+  486  netstat -tulnp | grep -i 8080
+  487  netstat -tulnp
+  488  ./bin/catalina.sh start
+  489  netstat -tulnp
+  490  netstat -tulnp | grep -i 8080
+  491  ./bin/catalina.sh stop
+  492  ./bin/catalina.sh start
+  493  cd /opt/tomcat
+  494  ps -eaf | grep -i tomcat
+  495  ps -eaf | grep -i 8080
+  496  ./bin/catalina.sh start
+  497  ./bin/catalina.sh stop
+  498  cd /opt/tomcat
+  499  ./bin/catalina.sh start
+  500  ls
+  501  cd /opt/tomcat/conf/tomcat-users.xml
+  502  vi /opt/tomcat/conf/tomcat-users.xml
+  503  vim /opt/tomcat/webapps/manager/META-INF/context.xml
+  504  cd /opt/tomcat/
+  505  chmod +x bin/catalina.sh 
+  506  cd /opt/tomcat/
+  507  chmod +x bin/catalina.sh
+  508  ./bin/catalina.sh start
+  509  ls
+  510  cp -rf apache-tomcat-8.5.56 /opt/tomcat
+  511  cd /opt/tomcat
+  512  cd ..
+  513  ls
+  514  sudo su -
+  515  ls
+  516  cp -rf apache-tomcat-8.5.56 /opt/tomcat
+  517  cd /opt/tomcat
+  518  chmod +x bin/catalina.sh 
+  519  ./bin/catalina.sh start
+  520  ls
+  521  cd conf
+  522  ls
+  523  vim tomcat-users.xml
+  524  cd ..
+  525  cd conf
+  526  ls
+  527  cd ..
+  528  ./bin/catalina.sh stop
+  529  vim conf/
+  530  vim contex.xml
+  531  cd context.xml
+  532  cd conf
+  533  vim context.xml
+  534  cd ..
+  535  cp -rf conf/context.xml /root/
+  536  ls
+  537  > conf/context.xml
+  538  vim conf/context.xml
+  539  ./bin/catalina.sh start
+  540  ./bin/catalina.sh stop
+  541  ./bin/catalina.sh start
+  542  cd ..
+  543  ls
+  544  rmdir tomcat
+  545  rm tomcat
+  546  rm -r tomcat
+  547  ls
+  548  cp -rf apache-tomcat-8.5.56 /opt/tomcat
+  549  cd ..
+  550  sudo su -
+  551  cd /opt/tomcat
+  552  ./bin/catalina.sh start
+  553  c ..
+  554  ./bin/catalina.sh stop
+  555  cd ..
+  556  ls
+  557  vi tomcat
+  558  cd tomcat
+  559  cd ..
+  560  rm tomcat
+  561  remove tomcat
+  562  rm -rf tomcat
+  563  ls
+  564  cp -rf apache-tomcat-8.5.56 /opt/tomcat
+  565  cd ..
+  566  ls
+  567  sudo su -
+  568  ./bin/catalina.sh stop
+  569  cd /opt/tomcat
+  570  ./bin/catalina.sh stop
+  571  ls
+  572  ./bin/catalina.sh stop
+  573  ./bin/catalina.sh stop
+  574  ./bin/catalina.sh start
+  575  ./bin/catalina.sh stop
+  576  ./bin/catalina.sh start
+  577  cd ..
+  578  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt & 
+  579  cd ls -ltr
+  580  cd 
+  581  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt & cd opt/tomcat
+  582  cd ls -ltr
+  583  ls -ltr
+  584  ls -ltr webapps/
+  585  date
+  586  ./bin/catalina.sh stop
+  587  /opttomcat
+  588  cd /opt/tomcat
+  589  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt & 
+  590  ./bin/catalina.sh start
+  591  uptime
+  592  uptime
+  593  ls
+  594  cd /opt/tomcat
+  595  ./bin/catalina.sh start
+  596  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt &
+  597  rm -rf webapps/petclinic*
+  598  ls
+  599  cd webapps/WEB-INF
+  600  CD webapps/
+  601  cd webapps/
+  602  ls
+  603  rm -rf webapps/petclinic*
+  604  ./bin/catalina.sh stop
+  605  cd ..
+  606  ./bin/catalina.sh stop
+  607  ./bin/catalina.sh start
+  608  rm -rf webapps/petclinic*
+  609  ls
+  610  cd webapps/
+  611  ls
+  612  cd ..
+  613  ll
+  614  ./bin/catalina.sh stop
+  615  ./bin/catalina.sh start
+  616  ./bin/catalina.sh stop
+  617  ./bin/catalina.sh start
+  618  ./bin/catalina.sh stop
+  619  ./bin/catalina.sh start
+  620  ./bin/catalina.sh stop
+  621  sudo su 0-
+  622  sudo su -
+  623  sudo su -
+  624  sudo su -
+  625  ls
+  626  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt & 
+  627  cd /opt/tomcat/
+  628  chmod +x bin/catalina.sh 
+  629  ./bin/catalina.sh start
+  630  terraform --version
+  631  sudo su -
+  632  wget https://releases.hashicorp.com/terraform/0.14.4/terraform_0.14.4_linux_amd64.zip
+  633  ls
+  634  unzip terraform_0.14.4_linux_amd64.zip 
+  635  cd /practice
+  636  cd practice/
+  637  cd devops301-mindtree-09-Jan-2021/
+  638  cd 00-Setup/
+  639  terraform --version
+  640  cd
+  641  sudo su -
+  642  cd practice
+  643  git main
+  644  git branch
+  645  cd /devops301-mindtree.09-Jan-2021/06-Terraform/00-Setup
+  646  cd devops301-mindtree-09-Jan-2021/
+  647  cd 00-Setup/
+  648  vim Terraform
+  649  chmod
+  650  ls
+  651  vim terraform_bootstrap.sh
+  652  ls
+  653  chmod + terraform_bootstrap.sh 
+  654  terraform --version
+  655  terraform -version
+  656  cd
+  657  sudo su -
+  658  ls
+  659  cd practice
+  660  ls
+  661  cd devops301-mindtree-09-Jan-2021 
+  662  ls
+  663  cd 06-Terraform
+  664  mkdir 06-Terraform
+  665  cd 06-Terraform/
+  666  ls
+  667  mkdir 00-Setup
+  668  ls
+  669  cd 00-Setup/
+  670  cd
+  671  sudo su -
+  672  wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
+  673  apt-get install
+  674  unzip terraform_0.12.24_linux_amd64.zip
+  675  mv terraform /usr/bin/terraform
+  676  wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
+  677  apt-get install
+  678  unzip terraform_0.12.24_linux_amd64.zip
+  679  mv terraform /usr/bin/terraform
+  680  chmod +x /usr/bin/terraform 
+  681  export PATH=$PATH:/usr/bin/terraform
+  682  echo "export PATH=$PATH:/usr/bin/terraform"
+  683  ~/.bashrc
+  684  sudo ~/.bashrc
+  685  sudo su ~/.bashrc
+  686  -su: /root/.bashrc: Permission denied
+  687  sudo su ~/.bashrc
+  688  echo "export PATH=$PATH:/usr/bin/terraform" >> ~/.bashrc 
+  689  source ~/.bashrc
+  690  teraform --version
+  691  mv terraform ~/bin
+  692  mv terraform /usr/bin/terraform 
+  693  sudo su -
+  694  wget https://releases.hashicorp.com/terraform/0.12.24/terraform_0.12.24_linux_amd64.zip
+  695  ls
+  696  apt-get install unzip -y
+  697  unzip terraform_0.12.24_linux_amd64.zip
+  698  mv terraform /usr/bin/terraform
+  699  chmod +x /usr/bin/terraform
+  700  export PATH=$PATH:/usr/bin/terraform
+  701  echo "export PATH=$PATH:/usr/bin/terraform" >> ~/.bashrc
+  702  source ~/.bashrc
+  703  teraform --version
+  704  terraform --version
+  705  ls
+  706  cd practice
+  707  ls
+  708  cd ..
+  709  mkdir terrafform_practice
+  710  ls
+  711  mkdir tarraform_practice
+  712  cd terraform_practice
+  713  ls
+  714  rmdir tarraform_practice
+  715  rmdir terrafform_practice
+  716  ls
+  717  mkdir terraform_practice
+  718  cd terraform_practice/
+  719  git clone https://github.com/amitvashisttech/devops301-mindtree-09-Jan-2021.git
+  720  ls
+  721  cd devops301-mindtree-09-Jan-2021/
+  722  ls
+  723  cd 06-Terraform/
+  724  cd 00-Setup/
+  725  chmod +x /usr/bin/terraform
+  726  ./terraform-bootstrap.sh
+  727  export AWS_SECRET_ACCESS_KEY="YYYYYYYYYYYXXXXXXXXXXXXXX"
+  728  export AWS_SECRET_ACCESS_KEY="6mOs++6f+Cck69nT4EmgV69tQpbk1R4MD6tJOzd2"
+  729  cd 00-Setup
+  730  ls
+  731  vi terraform-bootstrap.sh 
+  732  ls
+  733  vi terraform-bootstrap.sh 
+  734  cd ..
+  735  ls
+  736  cd 01-First-Deployment/
+  737  ls
+  738  vi first_deployment.tf 
+  739  cd ..
+  740  terraform init
+  741  cd 00-Setup/
+  742  terraform init
+  743  ls
+  744  cd ..
+  745  ls
+  746  02-Providers/
+  747  vi 02-Providers/
+  748  terraform init
+  749  ls
+  750  cd 01-First-Deployment/
+  751  terraform init
+  752  terraform apply
+  753  cd ..
+  754  cd 06-Outputs/
+  755  terraform destroy --auto-approve
+  756  cd ..
+  757  cd 01-First-Deployment/
+  758  terraform destroy --auto-approve
+  759  ls
+  760  cd ../ ../
+  761  cd 00-Setup/
+  762  ls
+  763  vi terraform-bootstrap.sh 
+  764  ls
+  765  ./terraform-bootstrap.sh 
+  766  vi /root/.bashrc
+  767  ls
+  768  cd practice
+  769  cd devops301-mindtree-09-Jan-2021/
+  770  ls
+  771  cd 03-Docker/
+  772  ls
+  773  cd 00-Setup/
+  774  chmod +x install-docker.sh 
+  775  ./install-docker.sh 
+  776  apt-get update
+  777  ./install-docker.sh 
+  778  ps -ef | grep -f apt
+  779  ./install-docker.sh 
+  780  cd ..
+  781  cd 01-Dockerfiles/
+  782  cd apache/
+  783  docker build -t myapache -f Dockerfile_Amit .
+  784  docker images
+  785  docker run -d --name web-test-1 myapache:v1
+  786  docker run -d --name web-test-1 myapache
+  787  docker ps
+  788  docker inspect web-test-1 
+  789  ls
+  790  docker ps
+  791  curl 172.17.0.2"
+  792  curl 172.17.0.2
+  793  curl 172.17.0.2/infor.html
+  794  curl 172.17.0.2/info.html
+  795  docker run -it ubuntu:16.04
+  796  ls
+  797  cd practice/devops301-mindtree-09-Jan-2021/03-Docker/01-Dockerfiles/apache/
+  798  ifconfg
+  799  ifconfig
+  800  docker run -it ubuntu:16.04
+  801  docker network ls
+  802  docker network inspect
+  803  docker network inspect 081c5f71f758 
+  804  ip addr
+  805  docker ps
+  806  vim Dockerfile_Amit 
+  807  ls
+  808  docker build -t myapache:v2 -f Dockerfile_Amit .
+  809  docker images
+  810  docker ps
+  811  docker run -d --name youtful_lewin -P myapache
+  812  docker ps
+  813  vim Dockerfile_Amit 
+  814  ls
+  815  docker rm -f $(docker ps -qa)
+  816  docker images
+  817  docker ps
+  818  ls
+  819  cd practice
+  820  cd devops301-mindtree-09-Jan-2021/
+  821  ls
+  822  rm -rf 06-Terraform/
+  823  ls
+  824  git status 
+  825  git pull
+  826  ls
+  827  git branch
+  828  git branch -a
+  829  git checkout jenkins-job
+  830  git branch
+  831  git checkout main
+  832  ls
+  833  cd practice/devops301-mindtree-09-Jan-2021/
+  834  ls
+  835  cd practice/devops301-mindtree-09-Jan-2021/03-Docker/01-Dockerfiles/apache/
+  836  docker run -d --name web-test-1 -P myapche:v4
+  837  docker run -d --name web-test-1 -P myapche
+  838  docker run -d --name web-test-1 -P myapche:v1
+  839  docker run -d --name web-test-2 -P myapche:v1
+  840  ls
+  841  docker rm -f $(docker ps -qa)
+  842  docker images
+  843  docker run -d --name web-test-2 -P myapche:v2
+  844  docker run -d --name web-test-2 -P myapche:v3
+  845  docker run -d --name web-test-2 -P myapche:v5
+  846  docker ps
+  847  docker run -d --name web-test-1 -P myapche:v1
+  848  docker run -d --name web-test-1 -P myapche:v2
+  849  ip link
+  850  ip netns
+  851  ls
+  852  cd ..
+  853  ls
+  854  cd tomcat
+  855  vim Dockerfile 
+  856  cp -rf ls
+  857  ls
+  858  sudo
+  859  sudo su
+  860  sudo su --
+  861  cd
+  862  sudo su --
+  863  sudo su -
+  864  cd practice/devops301-mindtree-09-Jan-2021/03-Docker/01-Dockerfiles/tomcat/
+  865  docker build -t petclinic-webapp:v1
+  866  docker build -t petclinic-webapp:v1 .
+  867  docker images
+  868  docker run -d --name petclinic-1 -P petclinic-webapp:v1
+  869  docker ps
+  870  sudo su --
+  871  sudo su -
+  872  sudo su --
+  873  docker ps
+  874  ip addr
+  875  docker ps
+  876  docker log 6859c405e502 
+  877  docker logs 6859c405e502 
+  878  docker rm petclinic-1
+  879  docker kill petclinic-1
+  880  docker rm petclinic-1
+  881  docker rmi petclinic-webapp:v1
+  882  docker build petclinic-webapp:v2
+  883  docker build -t petclinic-webapp:v2
+  884  docker build -t petclinic-webapp:v2 .
+  885  docker run -d --name petclinic-1 -P petclinic-webapp:v2
+  886  docker rm -f $(docker ps -af)
+  887  docker rm -f $(docker ps -qa)
+  888  cd ..
+  889  ls
+  890  cd 00-Setup/
+  891  ls
+  892  vim install-docker.sh 
+  893  cd ..
+  894  cd 03-DockerCompose/
+  895  cd 00-Setup/
+  896  ls
+  897  ./install-dockercompose.sh 
+  898  docker
+  899  docker-compose version
+  900  ls
+  901  cd ..
+  902  ls
+  903  cd 01-Nginx-App/
+  904  ls
+  905  vim docker-compose.yaml 
+  906  ls
+  907  docker-compse up -d
+  908  docker-compose up -d
+  909  docker-compose ps
+  910  docker-compose stop
+  911  docker ps
+  912  docker-compose rm
+  913  cd ..
+  914  ls
+  915  cd 02-Mult-App/
+  916  ls
+  917  vim docker-compose.yaml 
+  918  docker-compose up -d
+  919  cd ..
+  920  ls
+  921  cd 03-Petclinic-Deploy/
+  922  ls
+  923  vim docker-compose.yaml 
+  924  docker-compose up -d
+  925  docker-compose ps
+  926  ls
+  927  docker-compose stop
+  928  sudo su -
+  929  sudp su -
+  930  sudo su -
+  931  sudo su -
+  932  cd practice/devops301-mindtree-09-Jan-2021/03-Docker/01-Dockerfiles/tomcat/
+  933  ls
+  934  du -sh*
+  935  du - sh *
+  936  du -sh *
+  937  cd ..
+  938  cd
+  939  ls
+  940  cd practice/
+  941  ls
+  942  cd devops301-mindtree-09-Jan-2021/
+  943  ls
+  944  cd 01-Jenkins/
+  945  ls
+  946  cd petclinic-code/
+  947  ls
+  948  cd ..
+  949  ls 02-Tomcat/
+  950  cd 01-Jenkins/
+  951  ls
+  952  cd petclinic-code/
+  953  ls
+  954  mvn clean package
+  955  ls
+  956  cp -rf target/petclinic.war ../../03-Docker/01-Dockerfiles/tomcat/
+  957  cd 
+  958  sudo su -
+  959  cd practice/devops301-mindtree-09-Jan-2021/03-Docker/01-Dockerfiles/tomcat/
+  960  ls
+  961  du -sh *
+  962  ls
+  963  cd /opt/tomcat
+  964  ls
+  965  ./bin/catalina.sh start
+  966  ls
+  967  cd webapps/
+  968  ls
+  969  rm -rf *petclinic
+  970  ls
+  971  rm -r *petclinic
+  972  ls
+  973  rm -r *petclinic*
+  974  ls
+  975  cd practice/
+  976  cd d
+  977  cd devops301-mindtree-09-Jan-2021/
+  978  ls
+  979  cd 01-Jenkins/
+  980  ls
+  981  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt & 
+  982  cd ..
+  983  la
+  984  ls
+  985  cd 02-Tomcat/
+  986  ls
+  987  cd
+  988  sudo su -
+  989  chmod 777 -R /data/artifactory
+  990  cd practice/devops301-mindtree-09-Jan-2021/03-Docker/03-DockerCompose/04-Jfrog-Artfactory/
+  991  ls
+  992  docker-compose up -d
+  993  docker-compose ps
+  994  chmod 777 -R /data/artifactory
+  995  docker-compose ps
+  996  cd practice/devops301-mindtree-09-Jan-2021/03-Docker/03-DockerCompose/04-Jfrog-Artfactory/
+  997  docker-compose up -d
+  998  docker-compose ps
+  999  chmod 777 -R /data/artifactory
+ 1000  docker-compose ps
+ 1001  docker-compose ps -a
+ 1002  docker-compose logs artifactory 
+ 1003  ls
+ 1004  vim docker-compose.yaml 
+ 1005  docker-compose  kill 
+ 1006  docker-compose ps
+ 1007  docker-compose ps -a
+ 1008  docker-compose rm
+ 1009  docker-compose ps -a
+ 1010  cd
+ 1011  sudo su -
+ 1012  cd practice/devops301-mindtree-09-Jan-2021/03-Docker/
+ 1013  ls
+ 1014  cd 03-DockerCompose/
+ 1015  ls
+ 1016  cd 04-Jfrog-Artfactory/
+ 1017  ls
+ 1018  vim docker-compose.yaml 
+ 1019  docker-compose up -d
+ 1020  docker-compose ps
+ 1021  vim docker-compose.yaml 
+ 1022  cd
+ 1023  sudo su -
+ 1024  ls
+ 1025  cd practice/devops301-mindtree-09-Jan-2021/04-Ansible/
+ 1026  ls
+ 1027  cd 01-Inventory/
+ 1028  apt-get install ansible -y
+ 1029  ansible --version
+ 1030  ansible all -i inventory -m ping 
+ 1031  apt-get install sshpass
+ 1032  ansible all -i inventory -m ping 
+ 1033  ls
+ 1034  cd practice/devops301-mindtree-09-Jan-2021/
+ 1035  ls
+ 1036  cd 01-Jenkins/
+ 1037  nohup  java -jar /root/jenkins.war --httpPort=9090 > output.txt & 
+ 1038  ls
+ 1039  cd petclinic-code/
+ 1040  ls
+ 1041  cd target/
+ 1042  ls
+ 1043  cd..
+ 1044  cd ..
+ 1045  cp -rf /petclinic-code/target/petclinic.war /root/
+ 1046  cp target/petclinic.war /usr/local/tomcat/webapps/
+ 1047  cd petclinic-code/
+ 1048  cp target/petclinic.war /usr/local/tomcat/webapps/
+ 1049  cp -rf target/petclinic.war /usr/local/tomcat/webapps/
+ 1050  cd
+ 1051  cd opt/tomcat
+ 1052  cd /opt/tomcat
+ 1053  COPY target/petclinic.war /usr/local/tomcat/webapps/
+ 1054  ls
+ 1055  cd webapps
+ 1056  ls
+ 1057  cd ..
+ 1058  ls
+ 1059  rm -rf webapps/petclinic*
+ 1060  cd webapps/
+ 1061  ls
+ 1062  cd ..
+ 1063  ./bin/catalina.sha stop
+ 1064  ./bin/catalina.sh stop
+ 1065  ./bin/catalina.sh start
+ 1066  cd
+ 1067  sudo su -
+ 1068  cd opt/tomcat
+ 1069  /opt/tomcat
+ 1070  cd /opt/tomcat
+ 1071  ls
+ 1072  rm -rf webapps/petclinic*
+ 1073  ./bin/catalina.sh start
+ 1074  rm -rf webapps/petclinic*
+ 1075  ./bin/catalina.sh stop
+ 1076  ./bin/catalina.sh start
+ 1077  ls
+ 1078  cd webapps/
+ 1079  ls
+ 1080  cd /root/.jenkins/workspace/PetClinic-PipeLine/01-Jenkins/petclinic-code/target/petclinic.war
+ 1081  cd /root/.jenkins/workspace
+ 1082  ls
+ 1083  cd PetClinic-PipeLine
+ 1084  ls
+ 1085  cd 01-Jenkins/
+ 1086  ls
+ 1087  cd petclinic-code
+ 1088  ls
+ 1089  cd target/
+ 1090  ls
+ 1091  cd
+ 1092  sudo su -
+ 1093  cd devops301/
+ 1094  cd devops-301/
+ 1095  ls
+ 1096  gi status
+ 1097  git status
+ 1098  git add . 
+ 1099  git commit -m "ansible files"
+ 1100  git push 
+ 1101  git config --global user.name "dhathridjavali"
+ 1102  git config --global user.email "d.dhathri97@gmail.com"
+ 1103  git push
+ 1104  git --help
+ 1105  history
+ 1106  history > History.txt

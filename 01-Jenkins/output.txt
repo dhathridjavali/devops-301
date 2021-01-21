@@ -1,0 +1,79 @@
+Running from: /root/jenkins.war
+webroot: $user.home/.jenkins
+2021-01-20 09:05:36.977+0000 [id=1]	INFO	org.eclipse.jetty.util.log.Log#initialized: Logging initialized @2665ms to org.eclipse.jetty.util.log.JavaUtilLog
+2021-01-20 09:05:37.326+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2021-01-20 09:05:37.579+0000 [id=1]	WARNING	o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2021-01-20 09:05:37.665+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-9.4.30.v20200611; built: 2020-06-11T12:34:51.929Z; git: 271836e4c1f4612f12b7bb13ef5a92a927634b0d; jvm 1.8.0_275-8u275-b01-0ubuntu1~16.04-b01
+2021-01-20 09:05:40.161+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2021-01-20 09:05:40.381+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: DefaultSessionIdManager workerName=node0
+2021-01-20 09:05:40.381+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: No SessionScavenger set, using defaults
+2021-01-20 09:05:40.385+0000 [id=1]	INFO	o.e.j.server.session.HouseKeeper#startScavenging: node0 Scavenging every 660000ms
+2021-01-20 09:05:41.695+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: /root/.jenkins found at: $user.home/.jenkins
+2021-01-20 09:05:42.329+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@2eea88a1{Jenkins v2.249.2,/,file:///root/.jenkins/war/,AVAILABLE}{/root/.jenkins/war}
+2021-01-20 09:05:42.390+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@50f8360d{HTTP/1.1, (http/1.1)}{0.0.0.0:9090}
+2021-01-20 09:05:42.390+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started @8079ms
+2021-01-20 09:05:42.392+0000 [id=20]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2021-01-20 09:05:44.408+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2021-01-20 09:05:52.490+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2021-01-20 09:05:53.617+0000 [id=25]	SEVERE	jenkins.InitReactorRunner$1#onTaskFailed: Failed Loading plugin GitHub API Plugin v1.117 (github-api)
+java.io.IOException: Failed to load: GitHub API Plugin (1.117)
+ - Plugin is missing: okhttp-api (3.14.9)
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:952)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:549)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1131)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-20 09:05:53.620+0000 [id=27]	SEVERE	jenkins.InitReactorRunner$1#onTaskFailed: Failed Loading plugin GitHub plugin v1.32.0 (github)
+java.io.IOException: Failed to load: GitHub plugin (1.32.0)
+ - Failed to load: GitHub API Plugin (1.117)
+	at hudson.PluginWrapper.resolvePluginDependencies(PluginWrapper.java:952)
+	at hudson.PluginManager$2$1$1.run(PluginManager.java:549)
+	at org.jvnet.hudson.reactor.TaskGraphBuilder$TaskImpl.run(TaskGraphBuilder.java:169)
+	at org.jvnet.hudson.reactor.Reactor.runTask(Reactor.java:296)
+	at jenkins.model.Jenkins$5.runTask(Jenkins.java:1131)
+	at org.jvnet.hudson.reactor.Reactor$2.run(Reactor.java:214)
+	at org.jvnet.hudson.reactor.Reactor$Node.run(Reactor.java:117)
+	at jenkins.security.ImpersonatingExecutorService$1.run(ImpersonatingExecutorService.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-20 09:05:58.775+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2021-01-20 09:05:58.791+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2021-01-20 09:06:00.398+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+2021-01-20 09:06:00.465+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2021-01-20 09:06:00.619+0000 [id=28]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2021-01-20 09:06:01.413+0000 [id=26]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2021-01-20 09:06:01.415+0000 [id=27]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2021-01-20 09:06:01.497+0000 [id=42]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Download metadata
+2021-01-20 09:06:01.514+0000 [id=42]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Download metadata. 15 ms
+2021-01-20 09:06:02.687+0000 [id=25]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@4951066a: display name [Root WebApplicationContext]; startup date [Wed Jan 20 09:06:02 UTC 2021]; root of context hierarchy
+2021-01-20 09:06:02.688+0000 [id=25]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@4951066a]: org.springframework.beans.factory.support.DefaultListableBeanFactory@21171e42
+2021-01-20 09:06:02.700+0000 [id=25]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@21171e42: defining beans [authenticationManager]; root of factory hierarchy
+2021-01-20 09:06:02.925+0000 [id=25]	INFO	o.s.c.s.AbstractApplicationContext#prepareRefresh: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@5923d565: display name [Root WebApplicationContext]; startup date [Wed Jan 20 09:06:02 UTC 2021]; root of context hierarchy
+2021-01-20 09:06:02.925+0000 [id=25]	INFO	o.s.c.s.AbstractApplicationContext#obtainFreshBeanFactory: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@5923d565]: org.springframework.beans.factory.support.DefaultListableBeanFactory@f6a431e
+2021-01-20 09:06:02.925+0000 [id=25]	INFO	o.s.b.f.s.DefaultListableBeanFactory#preInstantiateSingletons: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f6a431e: defining beans [filter,legacy]; root of factory hierarchy
+2021-01-20 09:06:02.997+0000 [id=25]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2021-01-20 09:06:03.147+0000 [id=19]	INFO	hudson.WebAppMain$3#run: Jenkins is fully up and running
+2021-01-20 09:06:28.967+0000 [id=14]	INFO	o.j.p.p.m.GlobalPipelineMavenConfig#getDao: Connect to database jdbc:h2:file:/root/.jenkins/jenkins-jobs/jenkins-jobs;AUTO_SERVER=TRUE;MULTI_THREADED=1;QUERY_CACHE_SIZE=25;JMX=TRUE with username sa and properties {}
+2021-01-20 09:06:28.990+0000 [id=14]	INFO	c.zaxxer.hikari.HikariDataSource#<init>: HikariPool-1 - Starting...
+2021-01-20 09:06:31.203+0000 [id=14]	INFO	c.zaxxer.hikari.HikariDataSource#<init>: HikariPool-1 - Start completed.
+2021-01-20 09:19:52.313+0000 [id=106]	INFO	o.j.p.workflow.job.WorkflowRun#finish: PetClinic-PipeLine-as-code #6 completed: FAILURE
+2021-01-20 09:24:56.583+0000 [id=177]	WARNING	o.j.r.u.AnonymousClassWarnings#warn: Attempt to (de-)serialize anonymous class org.jfrog.hudson.maven2.MavenDependenciesRecorder$1 in file:/root/.jenkins/plugins/artifactory/WEB-INF/lib/artifactory.jar; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+2021-01-20 09:27:31.455+0000 [id=192]	INFO	o.j.p.workflow.job.WorkflowRun#finish: PetClinic-PipeLine #20 completed: FAILURE
+2021-01-20 09:32:24.277+0000 [id=278]	INFO	o.j.p.workflow.job.WorkflowRun#finish: PetClinic-PipeLine #21 completed: FAILURE
+2021-01-20 09:40:05.368+0000 [id=407]	INFO	o.j.p.workflow.job.WorkflowRun#finish: PetClinic-PipeLine #22 completed: FAILURE
+2021-01-20 09:42:15.118+0000 [id=446]	INFO	o.j.p.workflow.job.WorkflowRun#finish: PetClinic-PipeLine #23 completed: FAILURE
+2021-01-20 09:45:26.214+0000 [id=523]	INFO	o.j.p.workflow.job.WorkflowRun#finish: PetClinic-PipeLine #24 completed: FAILURE
+2021-01-20 09:59:05.046+0000 [id=599]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
+2021-01-20 09:59:05.047+0000 [id=599]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 1 ms
+2021-01-20 10:59:05.046+0000 [id=638]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
+2021-01-20 10:59:05.046+0000 [id=638]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 0 ms
+2021-01-20 11:59:05.046+0000 [id=674]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Started Periodic background build discarder
+2021-01-20 11:59:05.046+0000 [id=674]	INFO	hudson.model.AsyncPeriodicWork#lambda$doRun$0: Finished Periodic background build discarder. 0 ms
+2021-01-20 12:12:22.152+0000 [id=21]	INFO	winstone.Logger#logInternal: JVM is terminating. Shutting down Jetty
