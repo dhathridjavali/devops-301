@@ -7,7 +7,7 @@ try {
 // Project Dir
     def project_path = "01-Jenkins/petclinic-code"
 stage('GitCheckOut') {
-git branch: 'main', credentialsId: '01', url: 'https://github.com/amitvashisttech/devops301-mindtree-09-Jan-2021.git'
+git branch: 'main', credentialsId: '01', url: 'https://github.com/dhathridjavali/devops-301.git'
 }
 
 dir(project_path){
